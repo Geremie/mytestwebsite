@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src="d3.v3.min.js"></script>
-  <script src="dimple.v2.0.0.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
   
   <style>
 	circle.dimple-series-1{
@@ -15,7 +15,9 @@
   </style>
   
     <script type="text/javascript">
-      function draw(data) {
+	
+	  // Draw the graphs based on 'nb of accidents' data
+      function drawNbDead(data) {
       
       /*
         D3.js setup code
@@ -30,7 +32,7 @@
 		  
 		  d3.select("body")
 			.append("h2")
-			.text("Evolution du nombre d'accidents par an");
+			.text("Nombre de personnes mortes par accidents par an");
 
           var svg1 = d3.select("body")
             .append("svg")
@@ -42,7 +44,7 @@
 				
 		  d3.select("body")
 			.append("h2")
-			.text("Evolution du nombre d'accidents par mois");
+			.text("Nombre de personnes mortes par accidents par mois");
 				
 		  var svg2 = d3.select("body")
             .append("svg")
@@ -56,30 +58,61 @@
       /*
         Dimple.js Chart construction code
       */
-
-          var myChart1 = new dimple.chart(svg1, data);
-          var x = myChart1.addCategoryAxis("x", "an"); 
-          myChart1.addMeasureAxis("y", "Num_Acc");
+			  
+			  var myChart1 = new dimple.chart(svg1, data);
+			  
+			  var x = myChart1.addTimeAxis("x", "an"); 
+			  x.dateParseFormat = "%Y";
+			  x.tickFormat = "%Y";
+			  x.timeInterval = 4;
+			  x.title = "Année";
+			  
+			  var y = myChart1.addMeasureAxis("y", "nb_tues");
+			  y.title = "Nombre de morts par accident";
+			  
+			  myChart1.addSeries(null, dimple.plot.line);
+			  myChart1.addSeries(null, dimple.plot.scatter);
+			  
+			  myChart1.draw();
+			  
+			  var myChart2 = new dimple.chart(svg2, data);
+			  
+			  var x = myChart2.addMeasureAxis("x", "nb_tues");
+			  x.title = "Nombre de morts par accident";
+			  
+			  
+			  var y = myChart2.addCategoryAxis("y", "mois");
+			  y.title = "Mois de l'année";
+			  y.addOrderRule(["decembre", "novembre", "octobre", "septembre", "août", "juillet", "juin", "mai", "avril", "mars", "fevrier", "janvier"])
+			  
+			  myChart2.addSeries(null, dimple.plot.bar);
+			  
+			  myChart2.draw();
 		  
-		  var nbAccidentsLine = myChart1.addSeries("Count", dimple.plot.line);
-		  nbAccidentsLine.aggregate = dimple.aggregateMethod.count;
-          var nbAccidentsScatter = myChart1.addSeries("Count", dimple.plot.scatter);
-		  nbAccidentsScatter.aggregate = dimple.aggregateMethod.count;
+		  // Drawing graphs based on 'number of dead by accident' data
+		  function drawNbAccidents(data){
+			  var svg3 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart3');
+			  
+			  
+			  
+			  var svg4 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart4');
+			  
+			  
+			  }
 		  
-          myChart1.draw();
-		  
-		  
-		  var myChart2 = new dimple.chart(svg2, data);
-		  //debugger;
-		  
-          var x = myChart2.addCategoryAxis("x", "mois"); 
-		  
-          myChart2.addMeasureAxis("y", "Num_Acc");
-		  
-		  var nbAccidentsBar = myChart2.addSeries("Count", dimple.plot.bar);
-		  nbAccidentsBar.aggregate = dimple.aggregateMethod.count;
-		  
-          myChart2.draw();
+		  d3.csv("nb_tues_1972_2016_2.csv", drawNbAccidents);
 		  
         };
     </script>
@@ -91,7 +124,7 @@
     Use D3 (not dimple.js) to load the TSV file
     and pass the contents of it to the draw function
     */
-  d3.csv("sub2_caract_2010_2016.csv", draw);
+  d3.csv("nb_tues_1972_2016_2.csv", drawNbDead);
   </script>
 </body>
 
