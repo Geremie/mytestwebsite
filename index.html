@@ -147,7 +147,45 @@
 			  nbAccidentsByWeekday.aggregate = dimple.aggregateMethod.count;
 			  myChart5.draw();
 			  
+			  d3.select("body")
+				.append("h2")
+				.text("Nombre d'accidents en fonction du type de route");
 			  
+			  var svg6 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart6');
+					
+			  var myChart6 = new dimple.chart(svg6, data);
+			  var x = myChart6.addMeasureAxis("x", "Num_Acc"); 
+			  var y = myChart6.addCategoryAxis("y", "catr");
+			  
+			  var nbAccidentsByCatr = myChart5.addSeries("Count", dimple.plot.bar);
+			  nbAccidentsByCatr.aggregate = dimple.aggregateMethod.count;
+			  myChart6.draw();
+			  
+			  d3.select("body")
+				.append("h2")
+				.text("Nombre d'accidents en fonction du type de véhicule);
+			  
+			  var svg7 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart7');
+					
+			  var myChart7 = new dimple.chart(svg7, data);
+			  var x = myChart7.addMeasureAxis("x", "Num_Acc"); 
+			  var y = myChart7.addCategoryAxis("y", "catv");
+			  
+			  var nbAccidentsByCatv = myChart5.addSeries("Count", dimple.plot.bar);
+			  nbAccidentsByCatv.aggregate = dimple.aggregateMethod.count;
+			  myChart7.draw();
 			  }
 		  
 		  d3.csv("dataviz_df.csv", drawNbAccidents);
