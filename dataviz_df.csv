@@ -1,101 +1,101 @@
 Num_Acc,lum,col,lat,long,weekday,catr,catv,catu,grav,sexe
-201600000001,plein jour,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,7,1,Indemne,2
-201600000001,plein jour,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,2,1,Blessé hospitalisé,1
-201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,7,1,Blessé hospitalisé,1
-201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,7,2,Blessé hospitalisé,1
-201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,7,2,Blessé hospitalisé,2
-201600000003,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,7,1,Indemne,1
-201600000003,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,7,3,Blessé hospitalisé,1
-201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,32,1,Blessé hospitalisé,1
-201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,32,2,Blessé léger,1
-201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,7,1,Indemne,2
-201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,30,1,Blessé hospitalisé,2
-201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,30,2,Blessé hospitalisé,2
-201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,7,1,Indemne,1
-201600000006,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,1,Indemne,1
-201600000006,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,3,Blessé hospitalisé,2
-201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,30,1,Indemne,1
-201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,30,2,Blessé léger,1
-201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,7,1,Indemne,1
-201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,7,1,Indemne,2
-201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,7,2,Indemne,1
-201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,7,1,Blessé hospitalisé,1
-201600000009,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,7,1,Indemne,1
-201600000009,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,30,1,Blessé hospitalisé,1
-201600000010,plein jour,Autre collision,0.0,0.0,vendredi,Voie communale,7,1,Indemne,1
-201600000010,plein jour,Autre collision,0.0,0.0,vendredi,Voie communale,7,3,Blessé hospitalisé,1
-201600000011,crepuscule ou aube,Autre collision,0.0,0.0,lundi,Route départementale,7,1,Indemne,1
-201600000011,crepuscule ou aube,Autre collision,0.0,0.0,lundi,Route départementale,7,3,Blessé hospitalisé,2
-201600000012,nuit sans éclairage public,Sans collision,0.0,0.0,jeudi,Route départementale,33,1,Blessé hospitalisé,1
-201600000013,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,1,Indemne,2
-201600000013,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,3,Blessé hospitalisé,1
-201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,33,1,Tué,1
-201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,33,1,Blessé hospitalisé,1
-201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,7,1,Indemne,1
-201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,1,1,Blessé hospitalisé,1
-201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,1,1,Indemne,1
-201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,7,1,Indemne,1
-201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,7,1,Indemne,2
-201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,7,1,Indemne,1
-201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,33,1,Blessé léger,1
-201600000017,nuit sans éclairage public,Autre collision,0.0,0.0,mardi,Route départementale,7,1,Blessé hospitalisé,2
-201600000018,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,7,1,Indemne,1
-201600000018,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,7,1,Blessé hospitalisé,2
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,33,1,Indemne,1
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,7,1,Indemne,1
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,7,1,Indemne,1
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,7,2,Blessé hospitalisé,2
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,7,2,Blessé léger,2
-201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,7,2,Blessé léger,2
-201600000020,nuit avec eclairage public allume,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,7,1,Blessé hospitalisé,1
-201600000020,nuit avec eclairage public allume,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,7,1,Indemne,1
-201600000021,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,30,3,Blessé hospitalisé,2
-201600000021,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,30,1,Blessé léger,2
-201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,10,1,Indemne,1
-201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,7,2,Indemne,2
-201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,7,1,Tué,1
-201600000023,plein jour,Autre collision,0.0,0.0,lundi,Route départementale,7,1,Tué,1
-201600000024,nuit sans éclairage public,Autre collision,0.0,0.0,samedi,Route départementale,7,1,Indemne,1
-201600000024,nuit sans éclairage public,Autre collision,0.0,0.0,samedi,Route départementale,7,2,Blessé hospitalisé,1
-201600000025,nuit sans éclairage public,Sans collision,0.0,0.0,dimanche,Voie communale,7,1,Tué,1
-201600000026,plein jour,Autre collision,0.0,0.0,mardi,Voie communale,7,1,Indemne,2
-201600000026,plein jour,Autre collision,0.0,0.0,mardi,Voie communale,7,3,Blessé hospitalisé,2
-201600000027,plein jour,Autre collision,0.0,0.0,jeudi,Autre,7,1,Indemne,1
-201600000027,plein jour,Autre collision,0.0,0.0,jeudi,Autre,7,3,Blessé hospitalisé,2
-201600000028,nuit sans éclairage public,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,7,1,Blessé hospitalisé,1
-201600000028,nuit sans éclairage public,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,7,1,Indemne,1
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,1,Blessé hospitalisé,1
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,1,Indemne,1
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,2,Indemne,2
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,2,Indemne,1
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,2,Indemne,1
-201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,7,2,Indemne,1
-201600000030,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,3,Blessé hospitalisé,2
-201600000030,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,7,1,Blessé léger,1
-201600000031,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mercredi,Route départementale,17,1,Blessé hospitalisé,1
-201600000031,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mercredi,Route départementale,21,1,Indemne,1
-201600000032,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mardi,Route départementale,7,1,Indemne,2
-201600000032,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mardi,Route départementale,33,1,Blessé hospitalisé,1
-201600000033,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,7,1,Indemne,2
-201600000033,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,7,3,Blessé hospitalisé,2
-201600000034,plein jour,Deux véhicules - frontale,0.0,0.0,jeudi,Route départementale,17,1,Blessé hospitalisé,1
-201600000034,plein jour,Deux véhicules - frontale,0.0,0.0,jeudi,Route départementale,17,1,Blessé hospitalisé,1
-201600000035,nuit avec eclairage public allume,Autre collision,0.0,0.0,mardi,Route départementale,7,1,Blessé hospitalisé,1
-201600000036,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,lundi,Route départementale,7,1,Blessé hospitalisé,2
-201600000036,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,lundi,Route départementale,10,1,Indemne,1
-201600000037,nuit sans éclairage public,Autre collision,0.0,0.0,dimanche,Route départementale,7,1,Blessé hospitalisé,1
-201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,7,1,Indemne,1
-201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,7,2,Indemne,2
-201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,7,1,Blessé hospitalisé,1
-201600000039,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,33,1,Blessé hospitalisé,1
-201600000039,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,33,2,Blessé hospitalisé,1
-201600000040,crepuscule ou aube,Autre collision,0.0,0.0,dimanche,Route départementale,7,1,Blessé hospitalisé,2
-201600000041,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,33,1,Blessé hospitalisé,2
-201600000041,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,7,1,Indemne,2
-201600000042,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,10,1,Blessé hospitalisé,1
-201600000043,nuit avec eclairage public allume,Autre collision,0.0,0.0,jeudi,Route départementale,33,1,Blessé hospitalisé,1
-201600000044,plein jour,Autre collision,0.0,0.0,samedi,Route départementale,7,1,Indemne,1
-201600000044,plein jour,Autre collision,0.0,0.0,samedi,Route départementale,7,2,Blessé hospitalisé,1
-201600000045,nuit avec eclairage public allume,Autre collision,0.0,0.0,vendredi,Route départementale,7,1,Indemne,1
-201600000045,nuit avec eclairage public allume,Autre collision,0.0,0.0,vendredi,Route départementale,7,3,Blessé hospitalisé,2
-201600000046,nuit sans éclairage public,Autre collision,0.0,0.0,dimanche,Route départementale,7,1,Indemne,1
+201600000001,plein jour,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000001,plein jour,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,Cyclomoteur,Conducteur,Blessé hospitalisé,Masculin
+201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Blessé hospitalisé,Masculin
+201600000002,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Blessé hospitalisé,Féminin
+201600000003,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000003,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Masculin
+201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,Scooter > 50 cm3 et <= 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,Scooter > 50 cm3 et <= 125 cm3,Passager,Blessé léger,Masculin
+201600000004,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Voie communale,VL seul,Conducteur,Indemne,Féminin
+201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,Scooter < 50 cm3,Conducteur,Blessé hospitalisé,Féminin
+201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,Scooter < 50 cm3,Passager,Blessé hospitalisé,Féminin
+201600000005,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,VL seul,Conducteur,Indemne,Masculin
+201600000006,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000006,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,Scooter < 50 cm3,Conducteur,Indemne,Masculin
+201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,Scooter < 50 cm3,Passager,Blessé léger,Masculin
+201600000007,plein jour,Deux véhicules - par l'arrière,0.0,0.0,dimanche,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,VL seul,Passager,Indemne,Masculin
+201600000008,crepuscule ou aube,Deux véhicules - frontale,0.0,0.0,samedi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000009,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,VL seul,Conducteur,Indemne,Masculin
+201600000009,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Voie communale,Scooter < 50 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000010,plein jour,Autre collision,0.0,0.0,vendredi,Voie communale,VL seul,Conducteur,Indemne,Masculin
+201600000010,plein jour,Autre collision,0.0,0.0,vendredi,Voie communale,VL seul,Piéton,Blessé hospitalisé,Masculin
+201600000011,crepuscule ou aube,Autre collision,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000011,crepuscule ou aube,Autre collision,0.0,0.0,lundi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000012,nuit sans éclairage public,Sans collision,0.0,0.0,jeudi,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000013,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000013,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Masculin
+201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,Motocyclette > 125 cm3,Conducteur,Tué,Masculin
+201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000014,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,dimanche,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,Bicyclette,Conducteur,Blessé hospitalisé,Masculin
+201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,Bicyclette,Conducteur,Indemne,Masculin
+201600000015,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,mercredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,VL seul,Conducteur,Indemne,Féminin
+201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,VL seul,Conducteur,Indemne,Masculin
+201600000016,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,jeudi,Voie communale,Motocyclette > 125 cm3,Conducteur,Blessé léger,Masculin
+201600000017,nuit sans éclairage public,Autre collision,0.0,0.0,mardi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Féminin
+201600000018,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000018,crepuscule ou aube,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Féminin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,Motocyclette > 125 cm3,Conducteur,Indemne,Masculin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,VL seul,Passager,Blessé hospitalisé,Féminin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,VL seul,Passager,Blessé léger,Féminin
+201600000019,plein jour,Trois véhicules et plus - collisions multiples,0.0,0.0,vendredi,Route départementale,VL seul,Passager,Blessé léger,Féminin
+201600000020,nuit avec eclairage public allume,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000020,nuit avec eclairage public allume,Deux véhicules - par le côté,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000021,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,Scooter < 50 cm3,Piéton,Blessé hospitalisé,Féminin
+201600000021,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,Scooter < 50 cm3,Conducteur,Blessé léger,Féminin
+201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,VU seul,Conducteur,Indemne,Masculin
+201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,VL seul,Passager,Indemne,Féminin
+201600000022,plein jour,Deux véhicules - par le côté,5084579.0,226407.0,samedi,Route départementale,VL seul,Conducteur,Tué,Masculin
+201600000023,plein jour,Autre collision,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Tué,Masculin
+201600000024,nuit sans éclairage public,Autre collision,0.0,0.0,samedi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000024,nuit sans éclairage public,Autre collision,0.0,0.0,samedi,Route départementale,VL seul,Passager,Blessé hospitalisé,Masculin
+201600000025,nuit sans éclairage public,Sans collision,0.0,0.0,dimanche,Voie communale,VL seul,Conducteur,Tué,Masculin
+201600000026,plein jour,Autre collision,0.0,0.0,mardi,Voie communale,VL seul,Conducteur,Indemne,Féminin
+201600000026,plein jour,Autre collision,0.0,0.0,mardi,Voie communale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000027,plein jour,Autre collision,0.0,0.0,jeudi,Autre,VL seul,Conducteur,Indemne,Masculin
+201600000027,plein jour,Autre collision,0.0,0.0,jeudi,Autre,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000028,nuit sans éclairage public,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000028,nuit sans éclairage public,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Indemne,Féminin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Indemne,Masculin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Indemne,Masculin
+201600000029,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,mercredi,Route départementale,VL seul,Passager,Indemne,Masculin
+201600000030,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000030,plein jour,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Blessé léger,Masculin
+201600000031,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mercredi,Route départementale,Tracteur routier + semi-remorque,Conducteur,Blessé hospitalisé,Masculin
+201600000031,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mercredi,Route départementale,Tracteur agricole,Conducteur,Indemne,Masculin
+201600000032,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mardi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000032,plein jour,Deux véhicules - par l'arrière,0.0,0.0,mardi,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000033,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000033,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000034,plein jour,Deux véhicules - frontale,0.0,0.0,jeudi,Route départementale,Tracteur routier + semi-remorque,Conducteur,Blessé hospitalisé,Masculin
+201600000034,plein jour,Deux véhicules - frontale,0.0,0.0,jeudi,Route départementale,Tracteur routier + semi-remorque,Conducteur,Blessé hospitalisé,Masculin
+201600000035,nuit avec eclairage public allume,Autre collision,0.0,0.0,mardi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000036,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,lundi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Féminin
+201600000036,nuit sans éclairage public,Deux véhicules - frontale,0.0,0.0,lundi,Route départementale,VU seul,Conducteur,Indemne,Masculin
+201600000037,nuit sans éclairage public,Autre collision,0.0,0.0,dimanche,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,VL seul,Passager,Indemne,Féminin
+201600000038,plein jour,Deux véhicules - par le côté,0.0,0.0,mardi,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Masculin
+201600000039,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000039,plein jour,Autre collision,0.0,0.0,jeudi,Route départementale,Motocyclette > 125 cm3,Passager,Blessé hospitalisé,Masculin
+201600000040,crepuscule ou aube,Autre collision,0.0,0.0,dimanche,Route départementale,VL seul,Conducteur,Blessé hospitalisé,Féminin
+201600000041,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Féminin
+201600000041,plein jour,Deux véhicules - par le côté,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Féminin
+201600000042,plein jour,Autre collision,0.0,0.0,mercredi,Route départementale,VU seul,Conducteur,Blessé hospitalisé,Masculin
+201600000043,nuit avec eclairage public allume,Autre collision,0.0,0.0,jeudi,Route départementale,Motocyclette > 125 cm3,Conducteur,Blessé hospitalisé,Masculin
+201600000044,plein jour,Autre collision,0.0,0.0,samedi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000044,plein jour,Autre collision,0.0,0.0,samedi,Route départementale,VL seul,Passager,Blessé hospitalisé,Masculin
+201600000045,nuit avec eclairage public allume,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Conducteur,Indemne,Masculin
+201600000045,nuit avec eclairage public allume,Autre collision,0.0,0.0,vendredi,Route départementale,VL seul,Piéton,Blessé hospitalisé,Féminin
+201600000046,nuit sans éclairage public,Autre collision,0.0,0.0,dimanche,Route départementale,VL seul,Conducteur,Indemne,Masculin
