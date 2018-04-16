@@ -269,7 +269,7 @@
 				.append("h2")
 				.text("Gravité du choc et catégorie de l'usager");
 			  
-			  var svg11 = d3.select("body")
+			  var svg10 = d3.select("body")
 				.append("svg")
 				  .attr("width", width + margin)
 				  .attr("height", height + margin)
@@ -281,7 +281,7 @@
 			  myChart10.setBounds(350, 40, 800, 280);
 			  var x = myChart10.addPctAxis("x", "Num_Acc");
 			  x.title = "";			  
-			  var y = myChart10.addCategoryAxis("y", "catr");
+			  var y = myChart10.addCategoryAxis("y", "catu");
 			  y.title = "";
 			  myChart10.addSeries("grav", dimple.plot.bar);
 			  myChart10.addLegend(400, 15, 710, 25, "right");
