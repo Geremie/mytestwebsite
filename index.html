@@ -32,7 +32,7 @@
 
           "use strict";
           var margin = 75,
-              width = 1400 - margin,
+              width = 1600 - margin,
               height = 550 - margin;
 			  
 		  //debugger;
@@ -75,7 +75,7 @@
 			  x.title = "";
 			  
 			  var y = myChart1.addMeasureAxis("y", "nb_tues");
-			  myChart1.setBounds(350, 10, 1350, 350);
+			  myChart1.setBounds(350, 10, 1500, 350);
 			  y.title = "";
 			  
 			  myChart1.addSeries(null, dimple.plot.line);
@@ -84,7 +84,7 @@
 			  myChart1.draw();
 			  
 			  var myChart2 = new dimple.chart(svg2, data);
-			  myChart2.setBounds(350, 10, 1350, 250);
+			  myChart2.setBounds(350, 10, 1500, 250);
 			  var x = myChart2.addMeasureAxis("x", "nb_tues");
 			  x.title = "";
 			  var y = myChart2.addCategoryAxis("y", "mois");
@@ -107,7 +107,7 @@
 					.attr('id', 'chart3');
 					
 			  var myChart3 = new dimple.chart(svg3, data);
-			  myChart3.setBounds(350, 10, 1350, 140);
+			  myChart3.setBounds(350, 10, 1500, 140);
 			  var x = myChart3.addMeasureAxis("x", "Num_Acc"); 
 			  x.title = "";
 			  var y = myChart3.addCategoryAxis("y", "lum");
@@ -129,7 +129,7 @@
 					.attr('id', 'chart4');
 					
 			  var myChart4 = new dimple.chart(svg4, data);
-			  myChart4.setBounds(350, 10, 1350, 170);
+			  myChart4.setBounds(350, 10, 1500, 170);
 			  var x = myChart4.addMeasureAxis("x", "Num_Acc");
 			  x.title = "";			  
 			  var y = myChart4.addCategoryAxis("y", "col");
@@ -151,7 +151,7 @@
 					.attr('id', 'chart5');
 					
 			  var myChart5 = new dimple.chart(svg5, data);
-			  myChart5.setBounds(350, 10, 1350, 200);
+			  myChart5.setBounds(350, 10, 1500, 200);
 			  var x = myChart5.addMeasureAxis("x", "Num_Acc");
 			  x.title = "";			  
 			  var y = myChart5.addCategoryAxis("y", "weekday");
@@ -173,7 +173,7 @@
 					.attr('id', 'chart6');
 					
 			  var myChart6 = new dimple.chart(svg6, data);
-			  myChart6.setBounds(350, 10, 1350, 170);
+			  myChart6.setBounds(350, 10, 1500, 170);
 			  var x = myChart6.addMeasureAxis("x", "Num_Acc");
 			  x.title = "";
 			  var y = myChart6.addCategoryAxis("y", "catr");
@@ -195,7 +195,7 @@
 					.attr('id', 'chart7');
 					
 			  var myChart7 = new dimple.chart(svg7, data);
-			  myChart7.setBounds(350, 10, 1350, 500);
+			  myChart7.setBounds(350, 10, 1500, 500);
 			  var x = myChart7.addMeasureAxis("x", "Num_Acc");
 			  x.title = "";			  
 			  var y = myChart7.addCategoryAxis("y", "catv");
