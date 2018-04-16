@@ -19,6 +19,22 @@
 		width: 500px !important;
 		height: 500px !important;
 	}
+	rect.dimple-tu-{
+		fill: rgb(251, 128, 114) !important;
+		stroke: rgb(210, 107, 95) !important;
+	}
+	rect.dimple-indemne{
+		fill: rgb(179, 222, 105) !important;
+		stroke: rgb(149, 185, 87) !important;
+	}
+	rect.dimple-bless--l-ger{
+		fill: rgb(128, 177, 211) !important;
+		stroke: rgb(107, 148, 176) !important;
+	}
+	rect.dimple-bless--hospitalis-{
+		fill: rgb(253, 180, 98) !important;
+		stroke: rgb(211, 150, 81) !important;
+	}
   </style>
   
     <script type="text/javascript">
@@ -248,6 +264,51 @@
 			  myChart9.addSeries("grav", dimple.plot.bar);
 			  myChart9.addLegend(400, 15, 710, 25, "right");
 			  myChart9.draw();
+			  
+			  d3.select("body")
+				.append("h2")
+				.text("Gravité du choc et catégorie de l'usager");
+			  
+			  var svg11 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart10');
+					
+			  var myChart10 = new dimple.chart(svg10, data);
+			  myChart10.setBounds(350, 40, 800, 280);
+			  var x = myChart10.addPctAxis("x", "Num_Acc");
+			  x.title = "";			  
+			  var y = myChart10.addCategoryAxis("y", "catr");
+			  y.title = "";
+			  myChart10.addSeries("grav", dimple.plot.bar);
+			  myChart10.addLegend(400, 15, 710, 25, "right");
+			  myChart10.draw();
+			  
+			  d3.select("body")
+				.append("h2")
+				.text("Sexe du conducteur et gravité des accidents");
+			  
+			  var svg11 = d3.select("body")
+				.append("svg")
+				  .attr("width", width + margin)
+				  .attr("height", height + margin)
+				.append('g')
+					.attr('class','chart')
+					.attr('id', 'chart11');
+			  
+			  var filteredData = dimple.filterData(data, "catu", "Conducteur");
+			  var myChart11 = new dimple.chart(svg10, filteredData);
+			  myChart11.setBounds(300, 40, 800, 280);
+			  var x = myChart11.addCategoryAxis("x", "sexe");
+			  x.title = "";			  
+			  var y = myChart11.addPctAxis("y", "Num_Acc");
+			  y.title = "";
+			  myChart11.addSeries("grav", dimple.plot.bar);
+			  myChart11.addLegend(360, 15, 710, 25, "right");
+			  myChart11.draw();
 		    };
 		  
 		  d3.csv("dataviz_df_2016.csv", drawNbAccidents);
