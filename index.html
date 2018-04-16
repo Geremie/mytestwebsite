@@ -65,10 +65,11 @@
 			  x.dateParseFormat = "%Y";
 			  x.tickFormat = "%Y";
 			  x.timeInterval = 4;
-			  x.title = "Année";
+			  x.title = "";
 			  
 			  var y = myChart1.addMeasureAxis("y", "nb_tues");
-			  y.title = "Nombre de morts par accident";
+			  myChart1.setBounds(250, 10, 1000, 200);
+			  y.title = "";
 			  
 			  myChart1.addSeries(null, dimple.plot.line);
 			  myChart1.addSeries(null, dimple.plot.scatter);
@@ -76,20 +77,18 @@
 			  myChart1.draw();
 			  
 			  var myChart2 = new dimple.chart(svg2, data);
-			  
+			  myChart2.setBounds(250, 10, 1000, 200);
 			  var x = myChart2.addMeasureAxis("x", "nb_tues");
-			  x.title = "Nombre de morts par accident";
-			  
-			  
+			  x.title = "";
 			  var y = myChart2.addCategoryAxis("y", "mois");
-			  y.title = "Mois de l'année";
-			  y.addOrderRule(["decembre", "novembre", "octobre", "septembre", "août", "juillet", "juin", "mai", "avril", "mars", "fevrier", "janvier"])
+			  y.title = "";
+			  //y.addOrderRule(["decembre", "novembre", "octobre", "septembre", "août", "juillet", "juin", "mai", "avril", "mars", "fevrier", "janvier"])
 			  
 			  myChart2.addSeries(null, dimple.plot.bar);
 			  
 			  myChart2.draw();
 		  
-		  // Drawing graphs based on 'number of dead by accident' data
+		  
 		  function drawNbAccidents(data){
 			  var svg3 = d3.select("body")
 				.append("svg")
@@ -100,9 +99,11 @@
 					.attr('id', 'chart3');
 					
 			  var myChart3 = new dimple.chart(svg3, data);
+			  myChart3.setBounds(250, 10, 1000, 120);
 			  var x = myChart3.addMeasureAxis("x", "Num_Acc"); 
+			  x.title("");
 			  var y = myChart3.addCategoryAxis("y", "lum");
-			  
+			  y.title("");
 			  var nbAccidentsByLum = myChart3.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByLum.aggregate = dimple.aggregateMethod.count;
 			  myChart3.draw();		
@@ -120,9 +121,11 @@
 					.attr('id', 'chart4');
 					
 			  var myChart4 = new dimple.chart(svg4, data);
-			  var x = myChart4.addMeasureAxis("x", "Num_Acc"); 
+			  myChart4.setBounds(250, 10, 1000, 170);
+			  var x = myChart4.addMeasureAxis("x", "Num_Acc");
+			  x.title("");			  
 			  var y = myChart4.addCategoryAxis("y", "col");
-			  
+			  y.title("");
 			  var nbAccidentsByCol = myChart4.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByCol.aggregate = dimple.aggregateMethod.count;
 			  myChart4.draw();
@@ -140,9 +143,11 @@
 					.attr('id', 'chart5');
 					
 			  var myChart5 = new dimple.chart(svg5, data);
-			  var x = myChart5.addMeasureAxis("x", "Num_Acc"); 
+			  myChart5.setBounds(250, 10, 1000, 200);
+			  var x = myChart5.addMeasureAxis("x", "Num_Acc");
+			  x.title("");			  
 			  var y = myChart5.addCategoryAxis("y", "weekday");
-			  
+			  y.title("");
 			  var nbAccidentsByWeekday = myChart5.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByWeekday.aggregate = dimple.aggregateMethod.count;
 			  myChart5.draw();
@@ -160,9 +165,11 @@
 					.attr('id', 'chart6');
 					
 			  var myChart6 = new dimple.chart(svg6, data);
-			  var x = myChart6.addMeasureAxis("x", "Num_Acc"); 
+			  myChart6.setBounds(250, 10, 1000, 120);
+			  var x = myChart6.addMeasureAxis("x", "Num_Acc");
+			  x.title("");
 			  var y = myChart6.addCategoryAxis("y", "catr");
-			  
+			  y.title("");
 			  var nbAccidentsByCatr = myChart6.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByCatr.aggregate = dimple.aggregateMethod.count;
 			  myChart6.draw();
@@ -180,15 +187,18 @@
 					.attr('id', 'chart7');
 					
 			  var myChart7 = new dimple.chart(svg7, data);
-			  var x = myChart7.addMeasureAxis("x", "Num_Acc"); 
+			  myChart7.setBounds(250, 10, 1000, 200);
+			  var x = myChart7.addMeasureAxis("x", "Num_Acc");
+			  x.title("");			  
 			  var y = myChart7.addCategoryAxis("y", "catv");
+			  y.title("");
 			  
 			  var nbAccidentsByCatv = myChart7.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByCatv.aggregate = dimple.aggregateMethod.count;
 			  myChart7.draw();
 			  };
 		  
-		  d3.csv("dataviz_df.csv", drawNbAccidents);
+		  d3.csv("dataviz_df_2016_100.csv", drawNbAccidents);
 		  
         };
     </script>
