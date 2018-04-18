@@ -32,6 +32,18 @@
 		fill: rgb(253, 180, 98) !important;
 		stroke: rgb(211, 150, 81) !important;
 	}
+	rect#All__juillet_, rect.dimple-plein-jour, rect.dimple-vendredi, rect.dimple-samedi{
+		fill: rgb(251, 128, 114) !important;
+	}
+	rect#All__octobre_, rect#All__août_{
+		fill: rgb(253, 180, 98) !important;
+	}
+	rect#All__fevrier_{
+		fill: rgb(179, 222, 105) !important;
+	}
+	rect.dimple-autre-collision{
+		fill: rgba(128, 177, 211, 0.1) !important;
+	}
   </style>
   
     <script type="text/javascript">
@@ -61,8 +73,8 @@
 
           var svg1 = d3.select("body")
             .append("svg")
-              .attr("width", width + margin)
-              .attr("height", height + margin)
+              .attr("width", width2 + margin2)
+              .attr("height", height2 + margin2)
             .append('g')
                 .attr('class','chart')
 				.attr('id', 'chart1');
@@ -122,7 +134,7 @@
 			  x.title = "";
 			  var y = myChart2.addCategoryAxis("y", "mois");
 			  y.title = "";
-			  //y.addOrderRule(["decembre", "novembre", "octobre", "septembre", "août", "juillet", "juin", "mai", "avril", "mars", "fevrier", "janvier"])
+			  y.addOrderRule(["decembre", "novembre", "octobre", "septembre", "août", "juillet", "juin", "mai", "avril", "mars", "fevrier", "janvier"]);
 			  
 			  myChart2.addSeries(null, dimple.plot.bar);
 			  
@@ -188,6 +200,7 @@
 			  var x = myChart5.addMeasureAxis("x", "Num_Acc");
 			  x.title = "";			  
 			  var y = myChart5.addCategoryAxis("y", "weekday");
+			  y.addOrderRule(["dimanche", "samedi", "vendredi", "jeudi", "mercredi", "mardi", "lundi"]);
 			  y.title = "";
 			  var nbAccidentsByWeekday = myChart5.addSeries("Count", dimple.plot.bar);
 			  nbAccidentsByWeekday.aggregate = dimple.aggregateMethod.count;
