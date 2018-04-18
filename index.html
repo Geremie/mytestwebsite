@@ -5,10 +5,7 @@
   <script src="d3.v3.min.js"></script>
   <script src="dimple.v2.0.0.min.js"></script>
   
-  <style>
-	circle.dimple-series-1{
-		fill: red;
-	}
+  <style>	
 	h2{
 		text-align: center;
 	}
@@ -21,8 +18,8 @@
 	}
 	rect.dimple-tu-{
 		fill: rgb(251, 128, 114) !important;
-		stroke: rgb(210, 107, 95) !important;
-	}
+
+		}
 	rect.dimple-indemne{
 		fill: rgb(179, 222, 105) !important;
 		stroke: rgb(149, 185, 87) !important;
@@ -95,14 +92,29 @@
 			  x.timeInterval = 4;
 			  x.title = "";
 			  
-			  var y = myChart1.addMeasureAxis("y", "nb_tues");
-			  myChart1.setBounds(350, 10, 800, 350);
-			  y.title = "";
+			  var y1 = myChart1.addMeasureAxis("y", "nb_tues");
+			  //y.useLog = true;
+			  //y.logBase = 2;
+			  y1.title = "";
 			  
-			  myChart1.addSeries(null, dimple.plot.line);
-			  myChart1.addSeries(null, dimple.plot.scatter);
+			  myChart1.addSeries("Nombre de morts", dimple.plot.line, [x, y1]);
+			  myChart1.addSeries("Nombre de morts", dimple.plot.scatter, [x, y1]);
 			  
+			  var y2 = myChart1.addMeasureAxis("y", "pop");
+			  //y.useLog = true;
+			  //y.logBase = 2;
+			  y2.title = "";
+			  
+			  var popSeriesLine = myChart1.addSeries("Population", dimple.plot.line, [x, y2]);
+			  var popSeriesScatter = myChart1.addSeries("Population", dimple.plot.scatter, [x, y2]);
+			  popSeriesLine.aggregate = dimple.aggregateMethod.avg;
+			  popSeriesScatter.aggregate = dimple.aggregateMethod.avg;
+			  myChart1.addLegend(360, 15, 780, 25, "right");
 			  myChart1.draw();
+			  y1.shapes.select("g.dimple-axis path.domain")
+				.style("stroke", "rgb(128, 177, 211)");
+			  y2.shapes.select("g.dimple-axis path.domain")
+				.style("stroke", "rgb(251, 128, 114)");
 			  
 			  var myChart2 = new dimple.chart(svg2, data);
 			  myChart2.setBounds(350, 10, 800, 250);
@@ -328,7 +340,7 @@
     Use D3 (not dimple.js) to load the TSV file
     and pass the contents of it to the draw function
     */
-  d3.csv("nb_tues_1972_2016_2.csv", drawNbDead);
+  d3.csv("nb_tues_1972_2016_3.csv", drawNbDead);
   </script>
 </body>
 
